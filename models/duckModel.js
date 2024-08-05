@@ -11,10 +11,10 @@ const duckSchema = new Schema(
             type: String,
             required: true,
             maxLength: 510,
-            match: [
-                /^https?:\/\/(?:www\.)?[-a-zA-Z0-9@:%._\+~#=]{1,256}\.[a-zA-Z0-9()]{1,6}\b(?:[-a-zA-Z0-9()@:%_\+.~#?&\/=]*)$/,
-                'must be a valid URL',
-            ],
+            // match: [
+            //     /^https?:\/\/(?:www\.)?[-a-zA-Z0-9@:%._\+~#=]{1,256}\.[a-zA-Z0-9()]{1,6}\b(?:[-a-zA-Z0-9()@:%_\+.~#?&\/=]*)$/,
+            //     'must be a valid URL',
+            // ],
         },
         quote: {
             type: String,
