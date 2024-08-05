@@ -1,4 +1,5 @@
 import express from 'express';
+import cors from 'cors';
 import './db/mongooseClient.js';
 import errorHandler from './middlewares/errorHandler.js';
 import duckRouter from './routes/duckRoutes.js';
