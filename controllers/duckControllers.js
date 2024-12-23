@@ -22,8 +22,7 @@ const createDuck = async (req, res, next) => {
             quote,
         });
 
-        const ducks = await DuckModel.find();
-        return res.status(201).json(ducks);
+        return res.status(201).json(newDuck);
     } catch (error) {
         next(error);
     }
