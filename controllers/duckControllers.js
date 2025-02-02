@@ -28,4 +28,15 @@ const createDuck = async (req, res, next) => {
     }
 };
 
-export { getAllDucks, createDuck };
+const getDuckById = async (req, res, next) => {
+    const { id } = req.params;
+    console.log(id);
+    try {
+        const ducks = await DuckModel.findById(id);
+        return res.json(ducks);
+    } catch (error) {
+        next(error);
+    }
+};
+
+export { getAllDucks, createDuck, getDuckById };
