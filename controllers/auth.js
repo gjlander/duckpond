@@ -44,12 +44,12 @@ const signIn = asyncHandler(async (req, res) => {
 
     const user = await User.findOne({ email }).select('+password');
 
+    if (!user) throw new ErrorResponse('User not found', 404);
+
     const passwordMatch = await bcrypt.compare(password, user.password);
 
     if (!passwordMatch)
         throw new ErrorResponse('Invalid email or password', 401);
-
-    if (!user) throw new ErrorResponse('User not found', 404);
 
     const secret = process.env.JWT_SECRET; // This will come from the server environment
     const payload = { userId: user._id }; // The data we want to enclose in the JWT
@@ -57,16 +57,17 @@ const signIn = asyncHandler(async (req, res) => {
 
     const token = jwt.sign(payload, secret, tokenOptions);
 
-    const isProduction = process.env.NODE_ENV === 'production';
-    const cookieOptions = {
-        httpOnly: true,
-        sameSite: isProduction ? 'None' : 'Lax',
-        secure: isProduction,
-    };
+    // for using cookie
+    // const isProduction = process.env.NODE_ENV === 'production';
+    // const cookieOptions = {
+    //     httpOnly: true,
+    //     sameSite: isProduction ? 'None' : 'Lax',
+    //     secure: isProduction,
+    // };
 
-    res.cookie('token', token, cookieOptions);
+    // res.cookie('token', token, cookieOptions);
 
-    res.status(201).json({ success: 'welcome back' });
+    res.status(201).json({ user: payload, token });
 });
 
 const signOut = asyncHandler(async (req, res) => {

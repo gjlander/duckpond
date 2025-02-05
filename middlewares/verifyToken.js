@@ -16,12 +16,15 @@ const verifyToken = asyncHandler(async (req, res, next) => {
 
     // const token = cookiesObj.token;
 
-    if (!req.headers.cookie)
-        return res.status(401).json({ error: 'Unauthorized. Please sign in' });
+    //using cookies
+    // if (!req.headers.cookie)
+    //     return res.status(401).json({ error: 'Unauthorized. Please sign in' });
 
-    const [_, token] = req.headers.cookie?.split('=');
+    // const [_, token] = req.headers.cookie?.split('=');
 
     // console.log(token);
+
+    const token = req.headers.authorization?.split(' ')[1];
 
     if (!token)
         return res.status(401).json({ error: 'Unauthorized. Please sign in' });
