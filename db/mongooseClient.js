@@ -12,5 +12,5 @@ try {
     });
 } catch (error) {
     chalkLog('red', error);
-    process.exit(0);
+    process.exit(1);
 }

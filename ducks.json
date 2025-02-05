@@ -1,0 +1,110 @@
+[
+    {
+        "_id": "66b0a76a62d429baaef71732",
+        "name": "Sir Quacks-a-lot",
+        "imgUrl": "https://cdn11.bigcommerce.com/s-nf2x4/images/stencil/1280x1280/products/430/7841/Knight-Rubber-Duck-Yarto-2__93062.1576270637.jpg?c=2",
+        "quote": "I will slay your bugs!",
+        "createdAt": "2024-08-05T10:20:26.915Z",
+        "updatedAt": "2024-08-05T10:20:26.915Z",
+        "__v": 0
+    },
+    {
+        "_id": "66b0c848ce8283710fa72879",
+        "name": "Captain Quack Sparrow",
+        "imgUrl": " https://www.veniceduckstore.it/cdn/shop/products/Captain-Quack-Rubber-Duck-slant.jpg",
+        "quote": "You'll always remember this as the day you almost squeezed Captain Quack Sparrow.",
+        "createdAt": "2024-08-05T12:40:40.833Z",
+        "updatedAt": "2024-08-05T12:40:40.833Z",
+        "__v": 0
+    },
+    {
+        "_id": "66b0ceb3daaffc928ccfb11d",
+        "name": "Ruder Duck",
+        "imgUrl": "https://i.ebayimg.com/images/g/vToAAOSwr6hdW8L8/s-l1600.jpg",
+        "quote": "#@*% off! Debug your own code!",
+        "createdAt": "2024-08-05T13:08:03.990Z",
+        "updatedAt": "2024-08-05T13:08:03.990Z",
+        "__v": 0
+    },
+    {
+        "_id": "66b0cf35daaffc928ccfb121",
+        "name": "Darth Quacker",
+        "imgUrl": "https://www.duckshop.de/media/image/3c/ce/25/Black_Star_Badeente_58495616_4_600x600.jpg",
+        "quote": "No, I am your debugger!",
+        "createdAt": "2024-08-05T13:10:13.237Z",
+        "updatedAt": "2024-08-05T13:10:13.237Z",
+        "__v": 0
+    },
+    {
+        "_id": "66b0e949c34174cf8989300b",
+        "name": "Spider-Duck",
+        "imgUrl": "https://i5.walmartimages.com/seo/Spidy-Super-Hero-Rubber-Duck_a42dbd68-e8cd-41f2-ac6d-c812a3a00339.bc3415f3b98088ac58eaeda1f06c10c9.png?odnHeight=640&odnWidth=640&odnBg=FFFFFF",
+        "quote": "Does whatever a Spider-Duck can!",
+        "createdAt": "2024-08-05T15:01:29.595Z",
+        "updatedAt": "2024-08-05T15:01:29.595Z",
+        "__v": 0
+    },
+    {
+        "_id": "66b0e9ebc34174cf8989300e",
+        "name": "Sr Developer Duckbert",
+        "imgUrl": "https://images.handyimprints.com.au/product/nerd-rubber-duck.jpg",
+        "quote": "Come to me with your BIG bugs!",
+        "createdAt": "2024-08-05T15:04:11.068Z",
+        "updatedAt": "2024-08-05T15:04:11.068Z",
+        "__v": 0
+    },
+    {
+        "_id": "66b22aafc7aa5dd34945f210",
+        "name": "The Quacker",
+        "imgUrl": "https://m.media-amazon.com/images/I/61iqP4VFsEL.__AC_SX300_SY300_QL70_ML2_.jpg",
+        "quote": "Why so serious?",
+        "createdAt": "2024-08-06T13:52:47.516Z",
+        "updatedAt": "2024-08-06T13:52:47.516Z",
+        "__v": 0
+    },
+    {
+        "_id": "66b33b76bc195ac0f0e8ac7c",
+        "name": "Mad Quacker",
+        "imgUrl": "https://duckycity.com/cdn/shop/products/SG-REYTD-JCNYO_1024x1024_clipped_rev_1-min_540x.jpeg?v=1505504539",
+        "quote": "Be careful, or I might just make your bugs into SUPER bugs!",
+        "createdAt": "2024-08-07T09:16:38.377Z",
+        "updatedAt": "2024-08-07T09:16:38.377Z",
+        "__v": 0
+    },
+    {
+        "_id": "66b33bdbbc195ac0f0e8ac7f",
+        "name": "Ducklock Holmes",
+        "imgUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbw5dFwbwPw_Uf_KTKU94mljxvtCcZzMCmKA&s",
+        "quote": "",
+        "createdAt": "2024-08-07T09:18:19.023Z",
+        "updatedAt": "2024-08-07T09:18:19.023Z",
+        "__v": 0
+    },
+    {
+        "_id": "66ed8dcba5cd7e5bb676c2ea",
+        "name": "Quackspeare",
+        "imgUrl": "https://www.duckshop.de/media/image/ba/a7/5a/Shakespeare_Duck_53439165_600x600.jpg",
+        "quote": "A bug by any other name would be solved by me",
+        "createdAt": "2024-09-20T14:59:23.561Z",
+        "updatedAt": "2024-09-20T14:59:23.561Z",
+        "__v": 0
+    },
+    {
+        "_id": "66fa943611531d05660dfb7c",
+        "name": "The Duck Reaper",
+        "imgUrl": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQ2xokh5PLp9ja8TW-ByjUhSmoroaiuXsDu_9VKYz8vORC6xuX5YoHhOaV-4uziZRso676c-ButTNGe2xK4e_8rCLAxMu9rVTVjrJtNCi1PcGYmh4geYnrPjg",
+        "quote": "I will kill your bugs",
+        "createdAt": "2024-09-30T12:06:14.709Z",
+        "updatedAt": "2024-09-30T12:06:14.709Z",
+        "__v": 0
+    },
+    {
+        "_id": "67a3511a18b988183871f6c6",
+        "name": "Sir Quacks-a-lot",
+        "imgUrl": "https://cdn11.bigcommerce.com/s-nf2x4/images/stencil/1280x1280/products/430/7841/Knight-Rubber-Duck-Yarto-2__93062.1576270637.jpg?c=2",
+        "quote": "I will slay your bugs!",
+        "createdAt": "2025-02-05T11:52:58.392Z",
+        "updatedAt": "2025-02-05T11:52:58.392Z",
+        "__v": 0
+    }
+]

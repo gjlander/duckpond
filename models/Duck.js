@@ -21,6 +21,11 @@ const duckSchema = new Schema(
             default: 'Count on me to become bug free!',
             maxLength: 1000,
         },
+        owner: {
+            type: Schema.Types.ObjectId,
+            ref: 'User',
+            required: [true, 'Owner is required'],
+        },
     },
     { timestamps: true }
 );

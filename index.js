@@ -1,8 +1,9 @@
 import express from 'express';
 import cors from 'cors';
 import './db/mongooseClient.js';
+import authRouter from './routes/authRouter.js';
+import duckRouter from './routes/duckRouter.js';
 import errorHandler from './middlewares/errorHandler.js';
-import duckRouter from './routes/duckRoutes.js';
 
 const app = express();
 const port = process.env.PORT || 3000;
@@ -17,6 +18,9 @@ app.get('/', (req, res) => {
 });
 
 app.use('/ducks', duckRouter);
+app.use('/auth', authRouter);
+
+app.use('*', (req, res) => res.status(404).json({ error: 'Not found' }));
 
 app.use(errorHandler);
 // Start the server
