@@ -6,7 +6,7 @@ import {
     getWildDuckById,
     updateWildDuck,
     deleteWildDuck,
-} from '../controllers/WildDuckControllers.js';
+} from '../controllers/wildDuckControllers.js';
 import { duckSchema } from '../joi/schemas.js';
 
 const wildDuckRouter = Router();
