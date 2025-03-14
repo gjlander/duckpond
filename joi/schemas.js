@@ -14,7 +14,7 @@ export const siginSchema = Joi.object({
 
 export const duckSchema = Joi.object({
     name: Joi.string().required(),
-    imgUrl: Joi.string().required(),
-    quote: Joi.string(),
+    imgUrl: Joi.string().uri().required(),
+    quote: Joi.string().default('Count on me to become bug free!'),
     owner: Joi.string(),
 });
