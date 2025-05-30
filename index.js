@@ -15,17 +15,17 @@ app.use(cors());
 
 // Basic route
 app.get('/', (req, res) => {
-    res.send('Hello World!');
+  res.send('Hello World!');
 });
 
 app.use('/ducks', duckRouter);
 app.use('/wild-ducks', wildDuckRouter);
 app.use('/auth', authRouter);
 
-app.use('*', (req, res) => res.status(404).json({ error: 'Not found' }));
+app.use('*splat', (req, res) => res.status(404).json({ error: 'Not found' }));
 
 app.use(errorHandler);
 // Start the server
 app.listen(port, () => {
-    console.log(`Server is running on http://localhost:${port}`);
+  console.log(`Server is running on http://localhost:${port}`);
 });
